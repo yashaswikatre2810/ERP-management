@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Invoicing Module</title>
+    <link rel="stylesheet" href="invoicing.css">
+</head>
+<body>
+    <h1>Invoicing Module</h1>
+    <section id="invoice-creation">
+        <h2>Create Invoice</h2>
+        <form id="invoice-form">
+            <input type="text" id="client-name" placeholder="Client Name" required>
+            <input type="number" id="amount" placeholder="Amount" required>
+            <button type="submit">Create Invoice</button>
+        </form>
+        <ul id="invoice-list"></ul>
+    </section>
+    <script src="invoicing.js"></script>
+</body>
+</html>

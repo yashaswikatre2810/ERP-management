@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Purchase Module</title>
+    <link rel="stylesheet" href="purchase.css">
+</head>
+<body>
+    <h1>Purchase Module</h1>
+    <section id="supplier-management">
+        <h2>Supplier Management</h2>
+        <form id="supplier-form">
+            <input type="text" id="supplier-name" placeholder="Supplier Name" required>
+            <input type="text" id="supplier-contact" placeholder="Contact Info" required>
+            <button type="submit">Add Supplier</button>
+        </form>
+        <ul id="supplier-list"></ul>
+    </section>
+    <section id="purchase-order">
+        <h2>Purchase Order Creation & Tracking</h2>
+        <form id="purchase-order-form">
+            <input type="text" id="po-product" placeholder="Product" required>
+            <input type="number" id="po-quantity" placeholder="Quantity" required>
+            <button type="submit">Create Purchase Order</button>
+        </form>
+        <ul id="purchase-orders"></ul>
+    </section>
+    <script src="purchase.js"></script>
+</body>
+</html>

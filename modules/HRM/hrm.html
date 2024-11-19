@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HRM Module</title>
+    <link rel="stylesheet" href="hrm.css">
+</head>
+<body>
+    <h1>HRM Module</h1>
+    <section id="employee-info">
+        <h2>Employee Information Management</h2>
+        <form id="employee-form">
+            <input type="text" id="employee-name" placeholder="Employee Name" required>
+            <input type="text" id="employee-role" placeholder="Employee Role" required>
+            <button type="submit">Add Employee</button>
+        </form>
+        <ul id="employee-list"></ul>
+    </section>
+    <section id="attendance">
+        <h2>Attendance & Leave Tracking</h2>
+        <div id="attendance-log"></div>
+    </section>
+    <script src="hrm.js"></script>
+</body>
+</html>

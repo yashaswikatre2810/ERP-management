@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Manufacturing Module</title>
+    <link rel="stylesheet" href="manufacturing.css">
+</head>
+<body>
+    <h1>Manufacturing Module</h1>
+    <section id="bom">
+        <h2>Bill of Materials (BOM)</h2>
+        <form id="bom-form">
+            <input type="text" id="product-name" placeholder="Product Name" required>
+            <textarea id="materials-list" placeholder="List Materials" required></textarea>
+            <button type="submit">Add BOM</button>
+        </form>
+        <ul id="bom-list"></ul>
+    </section>
+    <section id="production-planning">
+        <h2>Production Planning & Scheduling</h2>
+        <form id="production-form">
+            <input type="text" id="schedule-product" placeholder="Product" required>
+            <input type="date" id="production-date" required>
+            <button type="submit">Schedule Production</button>
+        </form>
+        <ul id="production-schedule"></ul>
+    </section>
+    <script src="manufacturing.js"></script>
+</body>
+</html>
+    
